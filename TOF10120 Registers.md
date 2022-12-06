@@ -1,7 +1,7 @@
-TOF10120
+<h1>TOF10120 Comms</h1>
 
-UART 
-Data Sending for Read Commands
+<h1>UART</h1> 
+<h2>Data Sending for Read Commands</h2>
 
 1 Read the deviation value, command r1#, return value D=xx means xx=00-99mm before calibration is 0
 
@@ -19,7 +19,7 @@ Data Sending for Read Commands
 
 
 
-Write commands
+<h2>Write commands</h2>
 
 1 Set the positive and negative deviation of the deviation value, command s1+xx#, return information > set successfully: ok set failed: fail
 Command s1-xx#, s1+xx# (positive deviation) or s1-xx# (negative deviation)
@@ -42,7 +42,7 @@ Command s1-xx#, s1+xx# (positive deviation) or s1-xx# (negative deviation)
 
 
 
-ROUTINE
+<h2>Routine</h2>
 
 command: string input box
 
@@ -54,7 +54,7 @@ Return information: the setting is successful: ok, indicating that the maximum d
 
 
 
-I2C Data Register addresses
+<h1>I2C Data Register addresses</h1>
 
 0x00-0x01 real-time distance
 
@@ -72,4 +72,4 @@ I2C Data Register addresses
 
 Note: The host should delay at least 30uS to prepare data for the module after sending the register address, otherwise I2C will be abnormal.
 
-(translated from the chinese manual)
+<i>(translated from the chinese manual)</i>
