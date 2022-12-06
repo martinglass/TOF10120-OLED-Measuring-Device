@@ -13,9 +13,9 @@ The code has been created, odified and adapted from https://www.electroniclinic.
 
 <b>See this video demo : https://youtu.be/PnQWMkhcioA</b>
 
-The design uses a simple connection system: the VCC (red), GND(black), Blue (SDA) and Green (SCL) wires from the TOF 10120 cable plug into the same pins of the OLED display. 4 wires of similar colours are soldered onto the OLED display pin ends, 
+The design uses a simple connection system: the VCC (red), GND(black), Blue (SDA) and Green (SCL) wires from the TOF 10120 cable plug into the same pins of the OLED display. 
 
-and then onto the Arduino VCC (5V), GND, SDA (pin A4), SCL (pin A5).
+4 wires of similar colours are soldered onto the OLED display pin ends, and then onto the Arduino VCC (5V), GND, SDA (pin A4), SCL (pin A5).
 
 Power is supplied via the USB socket on the Arduino.
 
