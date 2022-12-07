@@ -27,8 +27,8 @@ An STL file of the simple case design is also provided, for 3D printing.
 
 Use an ESP32/M5 board to connect via WiFi, with the firmware providing a web server to feed live data to any device on the home network/internet.
 
-Make a fixed position case to attach the ToF device to an Oil tank.
+Design a box/case so the ToF device can be attached and fixed to an Oil tank.
 
-Use the dimensions of the Oil Tank to calculate litres of Oil consumed / volume remaining, woth mm accuracy.
+Use the dimensions of the Oil Tank to calculate litres of Oil consumed / volume remaining, with mm accuracy.
 
 Use a series of live readings to calculate the rate of oil consumption / time remaining, with mm accuracy.
