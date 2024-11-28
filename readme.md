@@ -24,6 +24,7 @@ An STL file of the simple case design is also provided, for 3D printing.
 
 
 <H1>Ideas for further development</H1>
+Include a Rolling Moving Average summary, as well as the individual data points (see: MG_TOF10120_OLED_Distance_and_Average_Distance_Measurement.ino <br><br>
 
 Use an ESP32/M5 board to connect via WiFi, with the firmware providing a web server to feed live data to any device on the home network/internet.
 
