@@ -6,7 +6,7 @@ It can measure distances from Liquids, as well as Solids, up to 2 metres away.
 
 The code works on Arduino and other Microcontroller boards, for example with the Arduino IDE appl.
 
-The code has been created, odified and adapted from https://www.electroniclinic.com/tof10120-laser-rangefinder-arduino-display-interfacing-code/ and original Chinese source,
+The code has been created, modified and adapted from https://www.electroniclinic.com/tof10120-laser-rangefinder-arduino-display-interfacing-code/ and original Chinese source,
 
 <i>by Martin Glass December 2022 (c)</i>
 
